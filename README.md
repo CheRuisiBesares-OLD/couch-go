@@ -11,13 +11,13 @@ Couch-go is a simple CouchDB (0.9+) API for the Google Go language. It supports 
 Install [Go](http://www.golang.org). Then,
 
 ```
-$ go get code.google.com/p/couch-go
+$ go get github.com/peterbourgon/couch-go
 ```
 
 As with all `go get`-ted packages, you'll need to use a specially-formatted `import` line
 
 ```
-import "code.google.com/p/couch-go"
+import "github.com/peterbourgon/couch-go"
 ```
 
 # Basic usage
