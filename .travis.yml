@@ -1,12 +1,2 @@
-language: erlang # wither art thou, Go?
-
-install:
- - bash < <(curl -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-installer)
- - source $HOME/.gvm/scripts/gvm
- - gvm install go1
- - gvm use go1
-
-script:
- - cd $HOME/builds/peterbourgon/couch-go && go build -v .
- - cd $HOME/builds/peterbourgon/couch-go && go test -v .
+language: go
 
