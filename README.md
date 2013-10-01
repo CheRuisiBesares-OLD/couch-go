@@ -1,3 +1,7 @@
+# DEPRECATED
+
+couch-go is no longer maintained. I recommend looking at [go-couchbase](https://github.com/couchbaselabs/go-couchbase).
+
 # What is couch-go?
 
 Couch-go is a simple CouchDB (0.9+) API for the Google Go language. It supports basic operations on documents.
